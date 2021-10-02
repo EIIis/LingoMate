@@ -1,3 +1,7 @@
+# Contributions
+This project was started as a collaboration that included three engineers, product manager, and a designer. Though I don't have any Github information regarding the PM and designer, the two other engineers were [Tina](https://github.com/tinatinkokoshvili) and [Aishwariya](https://github.com/AishwariyaRanjan). Both were a huge part of the inital development of the project. A link to the original repo can be [found here](https://github.com/tinatinkokoshvili/LingoMate)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
