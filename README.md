@@ -1,6 +1,7 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/47289830/139682504-41c7558a-b2ea-4ae6-b2e8-845c6d4d7eaf.png" />
 </p>
+
 # Acknowledgements
 This project was started as a collaboration that included three engineers, product manager, and a designer. Though I don't have any Github information regarding the PM and designer, the two other engineers were [Tina](https://github.com/tinatinkokoshvili) and [Aishwariya](https://github.com/AishwariyaRanjan). Both were a huge part of the inital development of the project. A link to the original repo can be [found here](https://github.com/tinatinkokoshvili/LingoMate)
 
