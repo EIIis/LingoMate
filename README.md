@@ -4,7 +4,7 @@
 
 # What is LingoMate?
 LingoMate is a web application that allows you to learn new languages by pairing you with someone who knows the language you want to learn! Sign up for an account, get matched, and start learning!  
-LingoMate was started by a group of students with a passion for learning new languages. Our background included FIVE different nationalities, which included, Indian :india:, Mexican :mexico:, Georgian :georgia:, Zimbabwean :zimbabwe:, and South Korean :south korea:, so we knew we had to create a web application that would allow people to learn new languages.
+LingoMate was started by a group of students with a passion for learning new languages. Our background included FIVE different nationalities, which included, Indian :india: Mexican :mexico: Georgian :georgia: Zimbabwean :zimbabwe: and South Korean :kr: so we knew we had to create a web application that would allow people to learn new languages.
 
 # Dependencies
 The main source code is written in JavaScript, with the front-end being written in React. The 'back-end', more-so storage, I used Firebase, particulary for the login function. Below are some of the libraries, and how to install them. Though with the package.json file, all of the dependencies should setup.
