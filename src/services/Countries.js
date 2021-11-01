@@ -1,5 +1,3 @@
-
-
 export const getCountriesCollection = () => ([
     {id: '1', title: 'Australia' },
     {id: '2', title: 'Belgium' },
@@ -7,7 +5,3 @@ export const getCountriesCollection = () => ([
     {id: '4', title: 'Denmark' },
     {id: '4', title: 'Estonia' },
 ])
-
-
-
-

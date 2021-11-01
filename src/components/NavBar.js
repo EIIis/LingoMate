@@ -11,7 +11,7 @@ function Body() {
             <Logo />
             <div class={css(styles.rightJustify)}>
                 <div class={css(styles.buttons)}>
-                    <a class={css(styles.navText)} href=" ">Home</a>
+                    <a class={css(styles.navText)} href="home">Home</a>
                 </div>
                 <div class={css(styles.buttons)}>
                     <a class={css(styles.navText)} href="about">About</a>
@@ -20,11 +20,13 @@ function Body() {
                     <a class={css(styles.navText)} href="contact">Contact</a>
                 </div>
                 <div class={css(styles.buttons)}>
-                    <a class={css(styles.navText)} href="contact">Login</a>
-                </div>
+                    <a class={css(styles.navText)} href="login">Login</a>
+                </div>   
+                {/*         
                 <div class={css(styles.buttons)}>
-                    <Link to="/profile" class={css(styles.buttons)} href="userprofile" className="nav-links">Profile</Link>
+                    <a class={css(styles.navText)} href="profile">Profile</a>
                 </div>
+                */}
                 <div class={css(styles.buttons)}>
                     <button class={css(styles.button)} onClick={() => alert('Hello, world!')}>
                     Sign Up
@@ -42,7 +44,7 @@ const styles = StyleSheet.create({
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
-        height: 103,
+        height: '100%',
         width: '100%',
     },
     buttons: {
