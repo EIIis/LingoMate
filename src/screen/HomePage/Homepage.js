@@ -3,7 +3,7 @@ import { StyleSheet, css } from 'aphrodite';
 import Color from '../../util/Color';
 
 import BlueBG from '../../assets/Homepage/BlueBG.svg';
-import People from '../../assets/Homepage/people.svg';
+
 
 
 function HomePage(){
@@ -37,18 +37,8 @@ const styles = StyleSheet.create({
         height: '100%',
         width: '100%',
     },
-    picAlignment: {
-        position: 'absolute',
-        right: '0',
-    },
-    People: {
-        width: '65%',
-        height: '40%',
-        paddingLeft: '2%',
-    },
     textAlignment: {
         position: 'absolute',
-        
         left: '8px',
         paddingLeft: '25%',
         width: '70%',
