@@ -6,6 +6,7 @@ import NavBar from './components/NavBar';
 import Form from './screen/FormPage/Form';
 import About from './screen/About/About';
 import Login from './screen/Login/Login';
+import Contact from './screen/Contact/Contact';
 // import Chat from './screen/ChatPage/Chat';
 import Dashboard from "./components/Dashboard"
 import LoginForm from "./components/Login"
@@ -29,6 +30,7 @@ class App extends React.Component {
                     <Route exact path="/form" component={Form} />
                     <Route exact path="/about" component={About} />
                     <Route exact path="/login" component={Login} />
+                    <Route exact path="/contact" component={Contact} />
                     {/* <Route exact path='/chat' component={Chat}/> */}
                     <PrivateRoute exact path="/" component={Dashboard} />
                     <PrivateRoute path="/update-profile" component={UpdateProfile} />

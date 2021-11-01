@@ -5,53 +5,23 @@ import Color from '../../util/Color';
 import BlueBG from '../../assets/Homepage/BlueBG.svg';
 import People from '../../assets/Homepage/people.svg';
 
-/*
+
 function HomePage(){
     return(
     
         <div className={css(styles.container)}>
         <img src={BlueBG} alt="blueBackground" className={css(styles.BlueBG)} />
-        <div className={css(styles.picAlignment)}>
-            <img src={People} alt="Two people talking, over a cup of coffee" className={css(styles.People)} />
-            <div className={css(styles.textAlignment)}>
-                <p className={css(styles.text)}>Get matched with a peer and start learning a  new language today.</p>
-                <button className={css(styles.button)} onClick={() => { alert('You clicked the button!');}}>
-                    Get Matches
-                </button>
-            </div>
+        <div className={css(styles.textAlignment)}>
+            <p className={css(styles.text)}>Get matched with a peer and start learning a new language today. </p>
+            <p className={css(styles.text)}>And you know the best part? It's completely free and always will be</p>
+            <button className={css(styles.button)} onClick={() => { alert('You clicked the button!');}}>
+                Get Matches
+            </button>
         </div>
     </div>
     );
 }
-*/
 
-function HomePage(){
-    return(
-        <div className={css(styles.container)}>
-            <img src={BlueBG} alt='blueBackground' className={css(styles.background)} />
-            <img src={People} alt='Two people talking, over a cup of coffee' className={css(styles.middle)} />
-        </div>
-    );
-}
-const styles = StyleSheet.create({
-    background:{
-        position: 'relative',
-        top: '0',
-        left: '0',
-    },
-    middle:{
-        position: 'absolute',
-        top: '60px',
-        left: '80px',
-    },
-    container:{
-        position: 'relative',
-        top: '0',
-        left: '0',
-    },
-});
-
-/*
 const styles = StyleSheet.create({
     BlueBG: {
         width: '80%',
@@ -78,11 +48,10 @@ const styles = StyleSheet.create({
     },
     textAlignment: {
         position: 'absolute',
-        bottom: '-280px',
+        
         left: '8px',
         paddingLeft: '25%',
-        width: '50%',
-        paddingBottom: '-10%'
+        width: '70%',
     },
     text: {
         font: '45px Asap Condensed',
@@ -103,6 +72,6 @@ const styles = StyleSheet.create({
         },
     },
 });
-*/
+
 
 export default HomePage;

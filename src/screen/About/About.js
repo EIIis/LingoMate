@@ -9,7 +9,7 @@ import Reading from '../../assets/Homepage/reading.svg';
 function About() {
   return (
     <div>
-    <p className={css(styles.aboutUS)}>About Us</p>
+    <p className={css(styles.aboutUS)}>About LingoMate </p>
 
     <div className={css(styles.container)}>
         <img src={RedBG} alt="" className={css(styles.RedBG)} />
@@ -20,13 +20,19 @@ function About() {
         <div className={css(styles.picCAlignment)}>
             <div className={css(styles.textBorder)}>
                 <p className={css(styles.textBox)}>
-                Ever want to learn a new language but never had the time or the money? Maybe you want real world experience?
+                Ever want to learn a new language but never had the time or the money? 
+                Maybe you want real world experience?
                 </p>
                 <p className={css(styles.textBox)}>
-                Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. 
+                We are here to help you. At LingoMate, we match you with people who are either native speakers
+                of the lanaguage you're trying to learn or are also trying to learn the same language. Do you what's
+                the best part of it? It's all completely free! No more are you required to pay for a course to learn
+                or struggle once you meet a native speaker.
                 </p>
                 <p className={css(styles.textBox)}>
-                Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. Lorem Ipsum. 
+                LingoMate was first thought of by a group of students, all with different nationalities, so we know
+                how to help you. We are here to help you. At LingoMate, you're here to learn a new language, and we are 
+                there to help you at every step of the way! 
                 </p>
             </div>
         </div>
@@ -41,21 +47,15 @@ const styles = StyleSheet.create({
     RedBG: {
         width: '80%',
         height: '100%',
-        paddingLeft: '50%',
+        paddingLeft: '20%',
     },
     container: {
         position: 'relative',
-        // textAlign: 'left',
     },
     picAlignment: {
         position: 'absolute',
         top: '10px',
         left: '8px',
-    },
-    People: {
-        width: '65%',
-        height: '40%',
-        paddingLeft: '2%',
     },
     textAlignment: {
         position: 'absolute',
@@ -68,20 +68,6 @@ const styles = StyleSheet.create({
     text: {
         font: '45px Asap Condensed',
         color: '#fff',
-    },
-    button: {
-        background: Color.getstartedbutton,
-        color: 'white',
-        textAlign: 'center',
-        width: '40%',
-        height: 98,
-        borderWidth: 0,
-        borderRadius: 30,
-        font: '35px Rubik',
-        transition: 'transform 450ms',
-        ':hover': {
-            transform: 'scale(0.97)',
-        },
     },
 
     aboutUS: {
@@ -106,7 +92,6 @@ const styles = StyleSheet.create({
     readingBook: {
         width: '100%',
         height: '100%',
-        
     },
     textBox: {
         font: '23px Poppins',
@@ -123,38 +108,5 @@ const styles = StyleSheet.create({
     },
 });
 
-
-/*
-const styles = StyleSheet.create({
-    container: {
-        width: '100%',
-        height: '100%',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: Color.background,
-    },
-    title: {
-        width: '100%',
-        height: '10%',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: Color.background,
-    },
-    content: {
-        width: '100%',
-        height: '90%',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: Color.background,
-    },
-    
-});
-*/
 
 export default About;
