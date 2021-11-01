@@ -1,78 +1,34 @@
-# Contributions
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/47289830/139682504-41c7558a-b2ea-4ae6-b2e8-845c6d4d7eaf.png" />
+</p>
+# Acknowledgements
 This project was started as a collaboration that included three engineers, product manager, and a designer. Though I don't have any Github information regarding the PM and designer, the two other engineers were [Tina](https://github.com/tinatinkokoshvili) and [Aishwariya](https://github.com/AishwariyaRanjan). Both were a huge part of the inital development of the project. A link to the original repo can be [found here](https://github.com/tinatinkokoshvili/LingoMate)
 
+# Dependencies
+The main source code is written in JavaScript, with the front-end being written in React. The 'back-end', more-so storage, I used Firebase, particulary for the login function. Below are some of the libraries, and how to install them. Though with the package.json file, all of the dependencies should setup.
+- [React](https://reactjs.org/): The front-end framework
+- [Aphrodite](https://github.com/Khan/aphrodite#readme): A CSS framework
+- [Bootstrap](https://getbootstrap.com/): A CSS framework
+- [Firebase](https://firebase.google.com/): The database
+# Installation and Setup
+## Disclaimer: This setup is written for a Unix based machine and not WindowOS. This is because I don't have access to a WindowOS machine, and I know the setup for Windows is qute a bit different.
+It's quite easy to get the code up and running. The main thing that you'll need to have setup before following these instructions are to:
+1. Have SSH setup on your computer in order to clone the repo. Alternatively, you can just download the repositiory, but I don't know if this guide will work for you.
+2. Have npm installed on your computer. This is a package manager that allows you to install and manage dependencies. You can install this by running the following command in your terminal: `npm install -g npm`.  
+  
+Once you have have the setup ready, in order to get this up and running, just follow this simple guide:
+1. Go to the Github [repo](https://github.com/EIIis/LingoMate) and click the `Code` button, select the SSH option, and copy the link. It should look something like this: `git@github.com:EIIis/LingoMate.git`
+2. Go to your terminal and naviage to the directory where you'd like to clone the repository. Once you're there, run the following command: `git clone git@github.com:EIIis/LingoMate.git`. It could ask you for your password, so just type in your password.
+3. Once you see the `LingoMate` folder, navigate to the inside ot the folder and run the following command: `npm install`. This should install all the dependecies that are needed in order to get the application working.
+4. Once installed you can run the application by running the following command: `npm run start`.  
+5. After that, you should be able to access the application by going to the following link: `http://localhost:3000/`.  
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-Happy Hacking!
-
-Good luck
+Once you have it downloaded, you can naviagate the site. Note though that you won't have access to anything Firebase related because the API keys are located on a `.env` file, and for obvious reasons, you won't be able to access that.
+# Future Development
+- [x] Login system working
+- [ ] Add a profile page
+- [ ] Add a matchmaking system 
+- [ ] Add an peer-to-peer contact page
+- [ ] Add chat system with Firebase
+- [ ] Fix the styling of the application, get rid of Material-UI
+- [ ] Rewrite code to transition away from HTML/CSS to Aphrodite
