@@ -2,8 +2,9 @@
   <img src="https://user-images.githubusercontent.com/47289830/139682504-41c7558a-b2ea-4ae6-b2e8-845c6d4d7eaf.png" />
 </p>
 
-# Acknowledgements
-This project was started as a collaboration that included three engineers, product manager, and a designer. Though I don't have any Github information regarding the PM and designer, the two other engineers were [Tina](https://github.com/tinatinkokoshvili) and [Aishwariya](https://github.com/AishwariyaRanjan). Both were a huge part of the inital development of the project. A link to the original repo can be [found here](https://github.com/tinatinkokoshvili/LingoMate)
+# What is LingoMate?
+LingoMate is a web application that allows you to learn new languages by pairing you with someone who knows the language you want to learn! Sign up for an account, get matched, and start learning!  
+LingoMate was started by a group of students with a passion for learning new languages. Our background included FIVE different nationalities, which included, Indian :india:, Mexican :mexico:, Georgian :georgia:, Zimbabwean :zimbabwe:, and South Korean :south korea:, so we knew we had to create a web application that would allow people to learn new languages.
 
 # Dependencies
 The main source code is written in JavaScript, with the front-end being written in React. The 'back-end', more-so storage, I used Firebase, particulary for the login function. Below are some of the libraries, and how to install them. Though with the package.json file, all of the dependencies should setup.
@@ -33,3 +34,6 @@ Once you have it downloaded, you can naviagate the site. Note though that you wo
 - [ ] Add chat system with Firebase
 - [ ] Fix the styling of the application, get rid of Material-UI
 - [ ] Rewrite code to transition away from HTML/CSS to Aphrodite
+
+# Acknowledgements
+This project was started as a collaboration that included three engineers, product manager, and a designer. Though I don't have any Github information regarding the PM and designer, the two other engineers were [Tina](https://github.com/tinatinkokoshvili) and [Aishwariya](https://github.com/AishwariyaRanjan). Both were a huge part of the inital development of the project. A link to the original repo can be [found here](https://github.com/tinatinkokoshvili/LingoMate)
