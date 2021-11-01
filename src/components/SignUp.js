@@ -59,7 +59,7 @@ export default function SignUp() {
             </Card.Body>
         </Card>
         <div className={css(styles.footer)}>
-            <p>Already have an account? <Link to="/login">Login</Link></p>
+            <p>Already have an account? <Link to="/loginform">Login</Link></p>
         </div>
         </>
   );
